@@ -84,7 +84,7 @@ function main()
                 end
 
                 os.exec("git add -A")
-                os.exec("git commit -a -m \"autoupdate by ci\"")
+                os.exec("git commit -a -m \"autoupdate by ci\" --allow-empty")
                 os.exec("git push origin main")
                 return true
             end,

@@ -1,4 +1,5 @@
 import("core.base.option")
+import("core.base.json")
 import("core.base.semver")
 import("core.tool.toolchain")
 import("lib.detect.find_tool")
@@ -13,6 +14,20 @@ local options =
     {nil, "vs_toolset","kv", nil,       "The Toolset Version of Visual Studio"},
     {nil, "vs_sdkver", "kv", nil,       "The Windows SDK Version of Visual Studio"}
 }
+
+function shallowcopy(orig)
+    local orig_type = type(orig)
+    local copy
+    if orig_type == 'table' then
+        copy = {}
+        for orig_key, orig_value in pairs(orig) do
+            copy[orig_key] = orig_value
+        end
+    else -- number, string, boolean, etc
+        copy = orig
+    end
+    return copy
+end
 
 function build_artifacts(name, version, opt)
     local argv = {"lua", "private.xrepo", "install", "-yvD", "--shallow", "--force", "--build", "--linkjobs=2", "-p", opt.plat, "-a", opt.arch, "-k", opt.kind}
@@ -48,7 +63,7 @@ function get_buildid_for_msvc(buildhash, opt)
     end
 end
 
-function export_artifacts(name, version, opt)
+function export_artifacts(name, version, opt, cachekey)
     local argv = {"lua", "private.xrepo", "export", "-yD", "--shallow", "-p", opt.plat, "-a", opt.arch, "-k", opt.kind}
     if opt.configs then
         table.insert(argv, "-f")
@@ -69,7 +84,7 @@ function export_artifacts(name, version, opt)
     local artifactfile
     if opt.plat == "windows" then
         local buildid = get_buildid_for_msvc(buildhash, opt)
-        artifactfile = buildid .. ".7z"
+        artifactfile = buildid .. "-" .. cachekey .. ".7z"
         local z7 = assert(find_tool("7z"), "7z not found!")
         os.execv(z7.program, {"a", artifactfile, "*"})
     else
@@ -78,32 +93,61 @@ function export_artifacts(name, version, opt)
     return artifactfile
 end
 
+function cachehash(name, version, opt)
+    key = name .. "-" .. version  .. "-" .. opt.kind .. "-" .. opt.plat .. "-" .. opt.arch .. "-" .. opt.configs
+    print("Cache key full: " .. key)
+    return hash.uuid4(key):gsub('-', ''):lower()
+end
+
 function build(name, version, opt)
+    print("Starting build of " .. name .. " " .. version  .. " " .. opt.kind .. " " .. opt.plat .. " " .. opt.arch .. " " .. opt.configs)
+
+    local cachekey = cachehash(name, version, opt)
+    print("Cache key: " .. cachekey)
+
+    local cachefile = path.join("packages", name:sub(1, 1), name, version, "cache.json")
+    if os.exists(cachefile) then
+        local cache = json.loadfile(cachefile)
+        for _, entry in ipairs(cache) do
+            if entry == cachekey then
+                print("Package exists in cache, skipping")
+                return
+            end
+        end
+    end
+
     build_artifacts(name, version, opt)
-    return export_artifacts(name, version, opt)
+    local artifactfile = export_artifacts(name, version, opt, cachekey)
+    local tag = name .. "-" .. version
+    local found = try {function () os.execv("gh", {"release", "view", tag}); return true end}
+    if found then
+        try {function () os.execv("gh", {"release", "upload", "--clobber", tag, artifactfile}) end}
+    else
+        local created = try {function () os.execv("gh", {"release", "create", "--notes", tag .. " artifacts", tag, artifactfile}); return true end}
+        if not created then
+            try {function() os.execv("gh", {"release", "upload", "--clobber", tag, artifactfile}) end}
+        end
+    end
 end
 
 function main(...)
     local opt = option.parse(table.pack(...), options, "Build artifacts.", "", "Usage: xmake l scripts/build.lua [options]")
-    local buildinfo = io.load(path.join(os.scriptdir(), "..", "build.txt"))
-    if buildinfo.configs then
-        if opt.configs then
-            opt.configs = opt.configs .. "," .. buildinfo.configs
-        else
-            opt.configs = buildinfo.configs
-        end
-    end
-    for _, version in ipairs(buildinfo.versions) do
-        local artifactfile = build(buildinfo.name, version, opt)
-        local tag = buildinfo.name .. "-" .. version
-        local found = try {function () os.execv("gh", {"release", "view", tag}); return true end}
-        if found then
-            try {function () os.execv("gh", {"release", "upload", "--clobber", tag, artifactfile}) end}
-        else
-            local created = try {function () os.execv("gh", {"release", "create", "--notes", tag .. " artifacts", tag, artifactfile}); return true end}
-            if not created then
-                try {function() os.execv("gh", {"release", "upload", "--clobber", tag, artifactfile}) end}
+    local buildpackages = json.loadfile(path.join(os.scriptdir(), "..", "packages.json"))
+
+    for _, pkg in ipairs(buildpackages) do
+        local name = pkg[1]
+        local version = pkg[2]
+        local pkgopt = shallowcopy(opt)
+    
+        if pkg[3] then
+            if pkgopt.configs then
+                pkgopt.configs = pkgopt.configs .. "," .. pkg[3]
+            else
+                pkgopt.configs = pkg[3]
             end
         end
+
+        build(name, version, pkgopt)
+        -- local artifactfile = build(name, version, pkgopt)
     end
 end

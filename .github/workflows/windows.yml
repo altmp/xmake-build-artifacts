@@ -13,12 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         os: [windows-2022]
-        kind: [static]
-        arch: [x64]
-        vs_runtime: [MT]
-        # kind: [static, shared]
-        # arch: [x64, x86]
-        # vs_runtime: [MT, MD]
+        kind: [static, shared]
+        arch: [x64, x86]
+        vs_runtime: [MT, MD]
 
     runs-on: ${{ matrix.os }}
     steps:

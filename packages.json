@@ -1,5 +1,13 @@
 [
     ["rmlui", "5.0", "svg=true"],
-    ["rmlui", "5.0"]
-    
+    ["rmlui", "5.0"],
+    ["libcurl", "7.87.0", "openssl=true"],
+    ["nlohmann_json", "v3.11.2"],
+    ["toml++", "v3.3.0"],
+    ["glfw", "3.3.8"],
+    ["kuba-zip", "v0.2.5"],
+    ["spdlog", "v1.11.0"],
+    ["hash-library", "2021.09.29"],
+    ["xxhash", "v0.8.1"],
+    ["base-n", "2020.05.28"]
 ]

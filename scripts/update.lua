@@ -76,6 +76,9 @@ function main()
         local ok = try
         {
             function ()
+                os.exec("git reset --hard origin/main")
+                os.exec("git pull origin main")
+
                 for _, package in ipairs(buildpackages) do
                     updatepackage(package)
                 end
@@ -91,7 +94,7 @@ function main()
                     if errors then
                         print(tostring(errors))
                     end
-                    os.exec("git reset --hard HEAD^")
+                    os.exec("git reset --hard origin/main")
                     os.exec("git pull origin main")
                 end
             }

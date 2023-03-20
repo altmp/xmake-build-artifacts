@@ -1,0 +1,22 @@
+{
+    ["windows-x86-vc143-27ae2ba8e3784d85b1137332cb17e269"] = {
+        toolset = "14.34.31933",
+        sha256 = "da75fbb7873e168827e8244b6b8b65fab43fb268d681d2137f33a014509db593",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/base-n-2020.05.28/windows-x86-vc143-27ae2ba8e3784d85b1137332cb17e269-00ea24b9c8684c53afd7c27270533329.7z"
+    },
+    ["windows-x64-vc143-31cc7b46d31b44d9bfbbc04bcb768d01"] = {
+        toolset = "14.34.31933",
+        sha256 = "7f3b339aba8937c8eccf4ed08df63f6acb9c5fdb11a075caa0b589263fe0598f",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/base-n-2020.05.28/windows-x64-vc143-31cc7b46d31b44d9bfbbc04bcb768d01-661bc33b5cbe4f5bb26cac0d41d7d0c7.7z"
+    },
+    ["windows-x86-vc143-b83daa92a16647269e72f8b2aad619ac"] = {
+        toolset = "14.34.31933",
+        sha256 = "589470bfca2e1c54c0a3795ca10f4f123ceeb688805c208bfdd3df6a1ec41ebb",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/base-n-2020.05.28/windows-x86-vc143-b83daa92a16647269e72f8b2aad619ac-02583dd5d38a47b7af2c56a8e2c3c1b9.7z"
+    },
+    ["windows-x64-vc143-fa4661a2999746db8ec9ac0da1df2b7e"] = {
+        toolset = "14.34.31933",
+        sha256 = "90f32391b6ba83cfeb2b7af99b042615cfd798479490b0ef4c618ed8edb19bee",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/base-n-2020.05.28/windows-x64-vc143-fa4661a2999746db8ec9ac0da1df2b7e-152a6e4682dd4b52be847f63ab149bfd.7z"
+    }
+}

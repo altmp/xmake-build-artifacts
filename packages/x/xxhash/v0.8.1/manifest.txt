@@ -1,0 +1,22 @@
+{
+    ["windows-x86-vc143-c1522fd05f2948618a8b0b0f45f37542"] = {
+        toolset = "14.34.31933",
+        sha256 = "5ba68f12d5a0d9243228ce3ca12320ae8741dc81973c87d52e4c94ebebde1421",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/xxhash-v0.8.1/windows-x86-vc143-c1522fd05f2948618a8b0b0f45f37542-0ff2cdb68c574cbbaf34f8a2c9bad1db.7z"
+    },
+    ["windows-x64-vc143-76fd198accff4a23ad329007d4342294"] = {
+        toolset = "14.34.31933",
+        sha256 = "4a025491653ab8d7e1084328f7129a95004abe87dc7838c5bfb0d4b21a073132",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/xxhash-v0.8.1/windows-x64-vc143-76fd198accff4a23ad329007d4342294-5460afb450914188972121f0461be920.7z"
+    },
+    ["windows-x64-vc143-51e8bf8a126c448d8dbf1f3179ed6762"] = {
+        toolset = "14.34.31933",
+        sha256 = "3a0894dd44fbc13104689e8408af8c3317add332655c4d3656c6c571062fbda6",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/xxhash-v0.8.1/windows-x64-vc143-51e8bf8a126c448d8dbf1f3179ed6762-22f915baac0f4eca8e05de6666b2ae83.7z"
+    },
+    ["windows-x86-vc143-fea7d3c6b20544a18fc2af4328fb7dcd"] = {
+        toolset = "14.34.31933",
+        sha256 = "12fc58eb6240fbe2bb9673ea4ad23a55805338329a1ac2ca345c0269b2c355f9",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/xxhash-v0.8.1/windows-x86-vc143-fea7d3c6b20544a18fc2af4328fb7dcd-474b2b5936a1408a8f63fbe8eaea1a24.7z"
+    }
+}

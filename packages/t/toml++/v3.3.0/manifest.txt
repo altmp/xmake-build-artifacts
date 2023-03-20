@@ -1,0 +1,42 @@
+{
+    ["windows-x86-vc143-3e4048d7266746169e8c70b3c801a35d"] = {
+        toolset = "14.34.31933",
+        sha256 = "3abcdfbe1f5f202ee0b9649eccb3c3e6e31755005bb46fd975c27fdfb199c134",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x86-vc143-3e4048d7266746169e8c70b3c801a35d-ac2fcab3cce948e490a67a0b925cdd97.7z"
+    },
+    ["windows-x64-vc143-8e4963b0d98842029971bc036e18816a"] = {
+        toolset = "14.34.31933",
+        sha256 = "17216745014ca1c486958d6bc80be7b76ca85135aa043783753f77cb4dabf163",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x64-vc143-8e4963b0d98842029971bc036e18816a-05af653893894e2382bc016c661601a6.7z"
+    },
+    ["windows-x64-vc143-ae1575a100894a159915e54789e0fbe2"] = {
+        toolset = "14.34.31933",
+        sha256 = "57f22780333e5cfbba84f595776f300bf50497744fa2be0cc54c85f5eacf60f1",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x64-vc143-ae1575a100894a159915e54789e0fbe2-4f577de06ce54a279d72f7755dfa4ebf.7z"
+    },
+    ["windows-x86-vc143-8aec8354daf043cd8d6da00ea61bb9ae"] = {
+        toolset = "14.34.31933",
+        sha256 = "a7c08c8bbbad740f17ec546644b20f9430ce9cd991b1c59ef0282502fb25c8cf",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x86-vc143-8aec8354daf043cd8d6da00ea61bb9ae-1ae245d371db42c48cf708b5c79ba7eb.7z"
+    },
+    ["windows-x86-vc143-fad0b11505c74f59bc52e35e79dfb348"] = {
+        toolset = "14.34.31933",
+        sha256 = "40c81a3664e0907efb284f98c8ecf18fcaeeff5ed3b67d44c9409fd95d0f074c",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x86-vc143-fad0b11505c74f59bc52e35e79dfb348-c058a0e781ec41ca8d3c4220eef3d4ac.7z"
+    },
+    ["windows-x64-vc143-6b4eef79d8144ccf923215b99d24a09e"] = {
+        toolset = "14.34.31933",
+        sha256 = "bfd734863aeb9e990a9f8b45385b4bcf61b658ac6e60bf058d7b1a234d86dd66",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x64-vc143-6b4eef79d8144ccf923215b99d24a09e-9d1f5c67117d4ba1af6721b4ecd2c577.7z"
+    },
+    ["windows-x86-vc143-cd531b08505e439aa914ca69da785814"] = {
+        toolset = "14.34.31933",
+        sha256 = "23e147f29e0dca31b19f7468c7662131f9114ccb3f45138e0e5a307ec394cc05",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x86-vc143-cd531b08505e439aa914ca69da785814-b953bb693f0b413aa70dd69b0947cc87.7z"
+    },
+    ["windows-x64-vc143-93a7530534484c508e7127adb553ea47"] = {
+        toolset = "14.34.31933",
+        sha256 = "bbf9c398965d1548bf39f2f3cc994c2754245e224ccc0bb26da3cd85a99d9896",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/toml%2B%2B-v3.3.0/windows-x64-vc143-93a7530534484c508e7127adb553ea47-4afe1b79b7d2463794fe12ad03b2637a.7z"
+    }
+}

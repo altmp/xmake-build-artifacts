@@ -1,0 +1,22 @@
+{
+    ["windows-x64-vc143-51928289089e46ae8671427b72de1204"] = {
+        toolset = "14.34.31933",
+        sha256 = "bf9296c95db0baf4d9c67ccbee9a31f000e9aafab995770f76564b95b969a2f6",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/spdlog-v1.11.0/windows-x64-vc143-51928289089e46ae8671427b72de1204-4bbfa192b5e14257a123ddaeaa159e70.7z"
+    },
+    ["windows-x64-vc143-9f687477cd0342a6895e163907ac0652"] = {
+        toolset = "14.34.31933",
+        sha256 = "e7cc0d341f245cd4d321f538f638f1873baba097bdaad9833a1f64ce97d33f7c",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/spdlog-v1.11.0/windows-x64-vc143-9f687477cd0342a6895e163907ac0652-02e5d8f5659042d1af93dc7db12c30b2.7z"
+    },
+    ["windows-x86-vc143-05a7ceeade244daca70729da0ee982c3"] = {
+        toolset = "14.34.31933",
+        sha256 = "f1423ace7d35f970fec2b28d7e246afa213c0ed119475f42b5cc274c3e2cf1e6",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/spdlog-v1.11.0/windows-x86-vc143-05a7ceeade244daca70729da0ee982c3-1e58f7239eda45c98cb7066cf35abbe0.7z"
+    },
+    ["windows-x86-vc143-a77c337e4cda4887a033a6a7701321c8"] = {
+        toolset = "14.34.31933",
+        sha256 = "2be1917d680f4b122a55256d1903c6e955ba309c97c0ec5d51f9ea4881a45a0a",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/spdlog-v1.11.0/windows-x86-vc143-a77c337e4cda4887a033a6a7701321c8-1dba07d6579e44c0a5c03c80c65dc644.7z"
+    }
+}

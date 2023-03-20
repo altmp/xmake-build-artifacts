@@ -1,0 +1,42 @@
+{
+    ["windows-x86-vc143-8cac0a76572646028fbc5008dca6f264"] = {
+        toolset = "14.34.31933",
+        sha256 = "f311f3d47697905b6e64a68a60a08cda7bb6d6d30223f151ab732e844f3c24f3",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x86-vc143-8cac0a76572646028fbc5008dca6f264-9e080e9aa3c44c65b16de0c08cf5173b.7z"
+    },
+    ["windows-x64-vc143-495fe987c1e94e47b7bc6d5d5b33113d"] = {
+        toolset = "14.34.31933",
+        sha256 = "0e298beda1bb49de188c1ee7e5ac7236fd13cab5f34937b42b8cd75392780f7b",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x64-vc143-495fe987c1e94e47b7bc6d5d5b33113d-4b659c4abd75438c904f052c42704108.7z"
+    },
+    ["windows-x64-vc143-570c499f30b149b3829aef701f9d681b"] = {
+        toolset = "14.34.31933",
+        sha256 = "fe611caabba3e140cc32143d197cba9b56a44360b453bab81b1a027e4d30b997",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x64-vc143-570c499f30b149b3829aef701f9d681b-1514b97108ae426f82c46195ff7a218a.7z"
+    },
+    ["windows-x64-vc143-1d660c0a448547eeabd889bcccf0efec"] = {
+        toolset = "14.34.31933",
+        sha256 = "58e3c962fb13d4da4bbf59e8b2a8db06b5cf6232e0aafdda0537808aeacebc75",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x64-vc143-1d660c0a448547eeabd889bcccf0efec-e84894a0521144c3b88e1cfd257b2d13.7z"
+    },
+    ["windows-x86-vc143-22235b4fce774598910ade1101193b05"] = {
+        toolset = "14.34.31933",
+        sha256 = "60791c0e0e7e068e5e46f4c0b4061b0c34cbce91ddb1a89a217b13630597015d",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x86-vc143-22235b4fce774598910ade1101193b05-ad6897a5eaf14dadba7fe7dc3b10af84.7z"
+    },
+    ["windows-x86-vc143-592646b076eb4c2787bb0a1aff6d6959"] = {
+        toolset = "14.34.31933",
+        sha256 = "d03a3b1dd30ce2f0af3e12feb5182ac9666547f4dae866040650a949b38bec6a",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x86-vc143-592646b076eb4c2787bb0a1aff6d6959-cc2e9fd379eb4c329d5520852a9a86ec.7z"
+    },
+    ["windows-x64-vc143-193e3bdf76584471869d5fad03fba4a3"] = {
+        toolset = "14.34.31933",
+        sha256 = "9aafb1b9628ef4f5727f1bccb7c33c208b566a280ac6670cbf2767013c3a6209",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x64-vc143-193e3bdf76584471869d5fad03fba4a3-a6eb1476009c4ed697884963a3c08e19.7z"
+    },
+    ["windows-x86-vc143-5fcc63a0455a4868820344311406436f"] = {
+        toolset = "14.34.31933",
+        sha256 = "c050a71a1b89eb7b2396cc10a2bea2b18a2cca97c4217859e9cf0da425dedbed",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/libcurl-7.87.0/windows-x86-vc143-5fcc63a0455a4868820344311406436f-581fb583114a498c9676522207a134ab.7z"
+    }
+}

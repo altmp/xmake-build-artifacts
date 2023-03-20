@@ -1,0 +1,42 @@
+{
+    ["windows-x64-vc143-c7861c0b64f744f79df86d39c875f108"] = {
+        toolset = "14.34.31933",
+        sha256 = "1eda96173d966cb96a77cbd7cfa23b7af8b1929d3502ffc5bde5a96d4a0015f6",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x64-vc143-c7861c0b64f744f79df86d39c875f108-fdbf4054642948a0b6fd384252de8efe.7z"
+    },
+    ["windows-x86-vc143-85fc2826e71c4a6384bd4745afa903b6"] = {
+        toolset = "14.34.31933",
+        sha256 = "9a1fa2bdea8264d3ec91f155dabc28b2f3362201e0317d7ab66095f0f7330425",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x86-vc143-85fc2826e71c4a6384bd4745afa903b6-00f2c89377424585af482363578b82ad.7z"
+    },
+    ["windows-x64-vc143-61316922f8324a41a056311675eb16ee"] = {
+        toolset = "14.34.31933",
+        sha256 = "ff1e244272cb83073d3c77ac44c3831d30578c5211a76d1d18b2725aec474d49",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x64-vc143-61316922f8324a41a056311675eb16ee-6a9257fa334240f19f8a93a37c58951e.7z"
+    },
+    ["windows-x64-vc143-f27642e6c1c94b5db16295a0ef3b9506"] = {
+        toolset = "14.34.31933",
+        sha256 = "8fcad32f0b0329a1211da9b2b3cbf3f2f2894ca3f6b99f7d302fef6c593f0155",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x64-vc143-f27642e6c1c94b5db16295a0ef3b9506-a70ff36a71b34bdb9b05102c420a031a.7z"
+    },
+    ["windows-x64-vc143-83cd179660184dd1a8ede56f0e6bdb83"] = {
+        toolset = "14.34.31933",
+        sha256 = "9516eec91ab0186f718a6722b8c16bc987b87e6c2d6f0174d4a7093ab5ed0455",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x64-vc143-83cd179660184dd1a8ede56f0e6bdb83-bd6b7cef7092422ebb861354029cb9c7.7z"
+    },
+    ["windows-x86-vc143-468ecbcf8cde44598606ea8bc121da16"] = {
+        toolset = "14.34.31933",
+        sha256 = "a73d6569d4290eaf23e6d9c4409af19228d733851d496cbf52593b09b24252f4",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x86-vc143-468ecbcf8cde44598606ea8bc121da16-8a7327ae17b14d718643b458449531f2.7z"
+    },
+    ["windows-x86-vc143-4acd908d06aa4bd3946f7c1ddd63a867"] = {
+        toolset = "14.34.31933",
+        sha256 = "520707e43859d352115365ede13c48d22be80a8b2391f17be0c24399d2ca5000",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x86-vc143-4acd908d06aa4bd3946f7c1ddd63a867-e6082b6d118b4a97892e899c7bc4b73c.7z"
+    },
+    ["windows-x86-vc143-43bb65b4b50749ba917cb35ff4303dc4"] = {
+        toolset = "14.34.31933",
+        sha256 = "c189a4967573ce31a54a2e8f4beac54047b9aa3cca20eb693316366f461feb24",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/hash-library-2021.09.29/windows-x86-vc143-43bb65b4b50749ba917cb35ff4303dc4-faf048675f94452da07dcc484ac6acad.7z"
+    }
+}

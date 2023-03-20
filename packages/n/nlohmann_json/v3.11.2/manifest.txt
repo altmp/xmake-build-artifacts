@@ -1,0 +1,42 @@
+{
+    ["windows-x64-vc143-d18ecf552d7148eeb73c26c13078fb10"] = {
+        toolset = "14.34.31933",
+        sha256 = "a2b2eeb30cf1fb9f0795418bc504ef075a85a94a4892d927663b629109dde34b",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x64-vc143-d18ecf552d7148eeb73c26c13078fb10-75924ddaca984ee5b923c442bcdfaafb.7z"
+    },
+    ["windows-x64-vc143-64033ce9a4e349cc859905e7f69bedb3"] = {
+        toolset = "14.34.31933",
+        sha256 = "604e7130dae19c0c03f5117a1ed94bc059fdc625980104edd39d7736b461ce73",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x64-vc143-64033ce9a4e349cc859905e7f69bedb3-0427e00d34a049e2851538c209ab6318.7z"
+    },
+    ["windows-x86-vc143-ab07546bd13a4f4bad2f863452cb52c8"] = {
+        toolset = "14.34.31933",
+        sha256 = "8c5f1a7127c5577afa0473ed5ce2f8c09b7f9ce0d7d5162df69131c736ac1594",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x86-vc143-ab07546bd13a4f4bad2f863452cb52c8-4f6a11a526c64dc8b5d012fbcfaa5535.7z"
+    },
+    ["windows-x86-vc143-7efb49bace6e4bf2a9a9013e86f776ee"] = {
+        toolset = "14.34.31933",
+        sha256 = "d354f4597829a74c30e18d1a3af02cd8c2887de4e1174d2035fab26b9b95aa6d",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x86-vc143-7efb49bace6e4bf2a9a9013e86f776ee-9d54fb5dc0f94cbd8271b557abd38f89.7z"
+    },
+    ["windows-x64-vc143-db78f9d63f7846b88394bb388d2ac762"] = {
+        toolset = "14.34.31933",
+        sha256 = "a548b293a6b1864ec92336dca82a4aaf864e0d1d508d40f98a1d378298e409e9",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x64-vc143-db78f9d63f7846b88394bb388d2ac762-3574722f46264732895347580924ac12.7z"
+    },
+    ["windows-x64-vc143-5211ffe4b91e417b97051c2472dcca02"] = {
+        toolset = "14.34.31933",
+        sha256 = "8374dfa856785cb592d55b72237d1e1f24e2404a70461c2fc0b1d8ef2cde6447",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x64-vc143-5211ffe4b91e417b97051c2472dcca02-669dce35e19946aa94b8339e1b13a112.7z"
+    },
+    ["windows-x86-vc143-7adabfb41e19452999be4a90211cf1d2"] = {
+        toolset = "14.34.31933",
+        sha256 = "71685dda9fb99eabd534b3a0e8c13cf9b15d9459c5cbbea88e72a3c33e3593b7",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x86-vc143-7adabfb41e19452999be4a90211cf1d2-2661c41cda4343dda95d3e33a96e82d4.7z"
+    },
+    ["windows-x86-vc143-b38d7521452c4a339027208efcac69ea"] = {
+        toolset = "14.34.31933",
+        sha256 = "1a67e4365a06fa37db668e832f69eeb6494577842e422e236b32649736d179c6",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/nlohmann_json-v3.11.2/windows-x86-vc143-b38d7521452c4a339027208efcac69ea-c8e004d00ecc4625b26c806476bfd9f3.7z"
+    }
+}

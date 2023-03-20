@@ -1,0 +1,42 @@
+{
+    ["windows-x86-vc143-671cf12ccc4945b9b6a3015af2a9b1c2"] = {
+        toolset = "14.34.31933",
+        sha256 = "32246de03f0958ab9428f148dd9835f611d0ce937ad8d977eedfd2467f30278a",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x86-vc143-671cf12ccc4945b9b6a3015af2a9b1c2-6356ea282f4d4e1d99a1fc3237f1dbeb.7z"
+    },
+    ["windows-x64-vc143-791cfe82407b4093839f878628878dd3"] = {
+        toolset = "14.34.31933",
+        sha256 = "1e819617523f65e6c17856b796afb886453a373294b4a59bd95e278a8407a59b",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x64-vc143-791cfe82407b4093839f878628878dd3-c9d9f664fde244b097a1ae66bda11962.7z"
+    },
+    ["windows-x86-vc143-61db8d368b454303983003f88f44d46a"] = {
+        toolset = "14.34.31933",
+        sha256 = "ae3c5169ec190e01654ac03b4d266f6257bd0aaf5671e2678d061f22f9bbf103",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x86-vc143-61db8d368b454303983003f88f44d46a-75cf841460d64d21bc0bc510ddfe7163.7z"
+    },
+    ["windows-x64-vc143-ab30e8976ab44cc9b7332c5831b674ec"] = {
+        toolset = "14.34.31933",
+        sha256 = "392cf93587e215de6e366a829c061a1cdf78b5a9e9da46349962c794aac2cd03",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x64-vc143-ab30e8976ab44cc9b7332c5831b674ec-600018adb04843ca83926a4be93c7f41.7z"
+    },
+    ["windows-x64-vc143-d12e591897c9472fb7d3725fa5811388"] = {
+        toolset = "14.34.31933",
+        sha256 = "f04ee2175a8bf484632d733b3af4728757284a0538ea5852852314c5905cde51",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x64-vc143-d12e591897c9472fb7d3725fa5811388-e7da5988db334c7dbcc343a6bd461983.7z"
+    },
+    ["windows-x86-vc143-42a5584d47284be58e663ba07e1bb2da"] = {
+        toolset = "14.34.31933",
+        sha256 = "f5d3c11a41fe8778490aa807026012a37c5c984aee29339a611336df6f8090bf",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x86-vc143-42a5584d47284be58e663ba07e1bb2da-3e55a915d86d439082f44e211e7e2bbc.7z"
+    },
+    ["windows-x64-vc143-aa051766d5a3492eba902e8856089e1f"] = {
+        toolset = "14.34.31933",
+        sha256 = "f68ceb30fa7c09b9a99cf5652670a337f0f112628d4ca981faf9ee0e60131c9f",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x64-vc143-aa051766d5a3492eba902e8856089e1f-4e89105b305945598091ee6a501faafa.7z"
+    },
+    ["windows-x86-vc143-b4565e425c7d47b9a6591b922e943ccf"] = {
+        toolset = "14.34.31933",
+        sha256 = "9849249bca49dd2c5c0f207e7146309cffeb7d6fd8286226044dd28d1ff000ed",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/glfw-3.3.8/windows-x86-vc143-b4565e425c7d47b9a6591b922e943ccf-7d442bc733944244b4d10ea7ea903ee5.7z"
+    }
+}

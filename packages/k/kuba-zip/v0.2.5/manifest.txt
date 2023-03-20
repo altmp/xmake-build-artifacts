@@ -1,0 +1,42 @@
+{
+    ["windows-x86-vc143-e7379ce1098047f58402d0c4c6efa2f5"] = {
+        toolset = "14.34.31933",
+        sha256 = "53540a66eec92eea95f2511d1cf9a329703248b6b994833be34d7acf7f76a7fd",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x86-vc143-e7379ce1098047f58402d0c4c6efa2f5-2e8bdcbdd1d044479b3c37118a55bed8.7z"
+    },
+    ["windows-x64-vc143-b6f864cdd3e24253a9628036914dc124"] = {
+        toolset = "14.34.31933",
+        sha256 = "6cb8b1421c44fb58725c3f7ee7f37ecf02fa7e81c9e9c6e430f5946f75bc9c5d",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x64-vc143-b6f864cdd3e24253a9628036914dc124-e4c0617250ab4327bd98b5e030f99b04.7z"
+    },
+    ["windows-x64-vc143-39a3cf660e0e4e318ae018225dea7b72"] = {
+        toolset = "14.34.31933",
+        sha256 = "a53dee5e70a98b7e7a883ec352a70ed81110758496a57d9631760587afe674f5",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x64-vc143-39a3cf660e0e4e318ae018225dea7b72-2e35662d496f47b98dd8d2122dff3b64.7z"
+    },
+    ["windows-x64-vc143-94bf7c32b4934236ab58bfd8ab2329f2"] = {
+        toolset = "14.34.31933",
+        sha256 = "8e1b0086ce6bdd5c81944d086b6b6399e9eca981387f047808256220907b9d07",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x64-vc143-94bf7c32b4934236ab58bfd8ab2329f2-417b87c19a0d4b7caabcefe0a190ac36.7z"
+    },
+    ["windows-x86-vc143-97a11041d11a440e91797006e008227b"] = {
+        toolset = "14.34.31933",
+        sha256 = "6bfef881c421e959a6dc648405ccd0e33c5dcd2f5277018dfde6d688d62bb57e",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x86-vc143-97a11041d11a440e91797006e008227b-f2d02fdd2dd84782b7da6639a7a56c23.7z"
+    },
+    ["windows-x86-vc143-4432b8036c4f466ab788c1be84b517c9"] = {
+        toolset = "14.34.31933",
+        sha256 = "85d97b4a67d0114b70651aa2ab310e378b9c72950ec6bc351827b087b162f06f",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x86-vc143-4432b8036c4f466ab788c1be84b517c9-664a748ce28140b489be386e25a6405d.7z"
+    },
+    ["windows-x64-vc143-3bc64ab8d77749b9b4483597af0cb014"] = {
+        toolset = "14.34.31933",
+        sha256 = "923c692704eeac6fa6c5e03cac7eb1796793c7fe494a66ea6304b3d8e48cea51",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x64-vc143-3bc64ab8d77749b9b4483597af0cb014-218686aa21b644e29a0cc0ccd871757e.7z"
+    },
+    ["windows-x86-vc143-9fd971a7d0624ecc8805d3699c5c3d56"] = {
+        toolset = "14.34.31933",
+        sha256 = "e994b7335420d04549761b2b245594b5cfb13de19facbf8e59beef04b651925b",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/kuba-zip-v0.2.5/windows-x86-vc143-9fd971a7d0624ecc8805d3699c5c3d56-338c65f27f9b4f46a328dc9f1bcb8ceb.7z"
+    }
+}

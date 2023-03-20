@@ -61,11 +61,12 @@ function updatepackage(package)
         end
     end
 
+    json.savefile(cachefile, cache)
     if get_manifestkey(manifest) == manifest_oldkey then
         print("manifest not changed!")
+        return
     end
     io.save(manifestfile, manifest)
-    json.savefile(cachefile, cache)
 end
 
 function main()

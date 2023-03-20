@@ -80,7 +80,7 @@ function main()
                 end
 
                 os.exec("git add -A")
-                os.exec("git commit -a -m \"autoupdate %s-%s by ci\"", name, version)
+                os.exec("git commit -a -m \"autoupdate by ci\"")
                 os.exec("git push origin main")
                 return true
             end,

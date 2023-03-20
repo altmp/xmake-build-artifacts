@@ -1,7 +1,82 @@
 {
+    ["windows-x64-vc143-367be34f2fe94174abc37732c9f15799"] = {
+        sha256 = "5dd40f852eae1c6f80b32e6376fd96e8c7b490fefb06bec894d932fb487cef92",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-367be34f2fe94174abc37732c9f15799-958ba6524b894f689550ad3c63114e4a.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-0de6ff36820e491b8e42f595673dd9bb"] = {
+        sha256 = "a13d027540af73c80e6d251bf9f4f1ecaf14ab155cf47962e14317d3f96d8f1c",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-0de6ff36820e491b8e42f595673dd9bb-b7446f8d82af464b811f4259220b123c.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-d1a71d32312f4fe7b332685610368024"] = {
+        sha256 = "8d9ea64a9104312f4173fc63e6d75b9b65cd825a7b95c61ce4bc801153a59cf4",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-d1a71d32312f4fe7b332685610368024-3b14139bc6e145209c0e8d0a29526a2f.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-5a1d9b602fb4462483e572727a1c5cf0"] = {
+        sha256 = "41d3f81116d902efe491c6450dfe3ea8522e6b1f77ed36154861a3ca4f2fbc39",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-5a1d9b602fb4462483e572727a1c5cf0-f6da7416d08a42b484f45c8068d62027.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-ab8f3fee5baa4cf5be1558bece09cdae"] = {
+        sha256 = "d45df9e5e3a60b6871ef4ada7444d44d702b695844c1c1416c129e32f76ddf7b",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-ab8f3fee5baa4cf5be1558bece09cdae-f38c148cf24c42589504d01459d1f1b8.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-bea5751c68cf4dfc967dc6c82a2f3c4f"] = {
+        sha256 = "a9e89892e77ed66e6c3ca1ebee1dce1c4dfece769b962072a658790969eeef09",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-bea5751c68cf4dfc967dc6c82a2f3c4f-c76474f568b6408aa5dab377ba5cdc48.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-6d5af2f2845146c9b24d5b8c776c4b05"] = {
+        sha256 = "1d1853431a7303db324b6948e76edd3abe1e6de2536b44903dc17221423e6b38",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-6d5af2f2845146c9b24d5b8c776c4b05-da9643f363364d32b5d0e59e641b722c.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-7598b03d823a4567a66387bf2de7d705"] = {
+        sha256 = "52c439fe5bb5bd01e6d5b43ce662903540d91dad5f8d1dc0ad0a24bb3c1ce3b3",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-7598b03d823a4567a66387bf2de7d705-535f289764674c95978e32bcd5f8437e.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-bf0a856da1794a049f1062f8e63a9e1a"] = {
+        sha256 = "aca5566e6e173571cdc941570dd1357ce95efbbd72ee911cb77dfdc43fdc2073",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-bf0a856da1794a049f1062f8e63a9e1a-36d6a65981c440fb968d5382bbcb257c.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-7ef5f11d27164834a10cdcd9cf23f2b0"] = {
+        sha256 = "18630fc5a8a4af87a291202a2f143cba41f7b9b82a20553b4bda224f564a242d",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-7ef5f11d27164834a10cdcd9cf23f2b0-347e0783522d4869b33db7cd0176431d.7z",
+        toolset = "14.34.31933"
+    },
     ["windows-x64-vc143-53f3bfa43d0247bb9a55081f10dc7ad8"] = {
-        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-53f3bfa43d0247bb9a55081f10dc7ad8-7bcff857ee5347f59ccaab9e5ae5e01a.7z",
         toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-53f3bfa43d0247bb9a55081f10dc7ad8-7bcff857ee5347f59ccaab9e5ae5e01a.7z",
         sha256 = "7693f647f5ac1d7354677038fe4adde264e1129395b821d560437bba8812604d"
+    },
+    ["windows-x86-vc143-804d35ea89334642babc4d5589499f1a"] = {
+        sha256 = "52b00d2ce2986ed56c8b26954e1b1b5bfab2da611701aed587ab1c0fc1bcf28c",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-804d35ea89334642babc4d5589499f1a-50bf382f51284644997c14c4f1500a54.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x64-vc143-2f4be641fd1147fcbe40e2a012647182"] = {
+        sha256 = "0a92a263ef974eaac138ac073a0c4e38a1b39d09c63602eb6a49dcdf3a332c41",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-2f4be641fd1147fcbe40e2a012647182-e4f44a37acdb40bcbf7e6ab381a2786a.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-0558c0b432a84af4a4e6b0132298ee6d"] = {
+        sha256 = "1cf1359366aa4bd50b382308450648b78354b3898cdff8441380a493855fa233",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-0558c0b432a84af4a4e6b0132298ee6d-776441a2730b464093452bfb2b3ef7c5.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-d7e0003fbba9486aa62a91d2f093909a"] = {
+        sha256 = "96615dda28f8e06569604bb67d467797d4436a844040d49b4215f783cdddd8c8",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-d7e0003fbba9486aa62a91d2f093909a-88823374ccd54351a6bd11f1181bab50.7z",
+        toolset = "14.34.31933"
+    },
+    ["windows-x86-vc143-c4690922ab5648568b5514c83d758d1e"] = {
+        sha256 = "d12d50a1219193e625dda8d34bca5a136939e8a0f74a6e7d7f900bb4095ce35e",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x86-vc143-c4690922ab5648568b5514c83d758d1e-78681bee4d154d3b908df8d83ebc16dd.7z",
+        toolset = "14.34.31933"
     }
 }

@@ -1,7 +1,7 @@
 {
     ["windows-x64-vc143-53f3bfa43d0247bb9a55081f10dc7ad8"] = {
         urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/rmlui-5.0/windows-x64-vc143-53f3bfa43d0247bb9a55081f10dc7ad8-7bcff857ee5347f59ccaab9e5ae5e01a.7z",
-        sha256 = "7693f647f5ac1d7354677038fe4adde264e1129395b821d560437bba8812604d",
-        toolset = "14.34.31933"
+        toolset = "14.34.31933",
+        sha256 = "7693f647f5ac1d7354677038fe4adde264e1129395b821d560437bba8812604d"
     }
 }

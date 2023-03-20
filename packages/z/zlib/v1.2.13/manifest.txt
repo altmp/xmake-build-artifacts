@@ -1,0 +1,42 @@
+{
+    ["windows-x64-vc143-04bf9d8a64824100b68e5c59e579eda6"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x64-vc143-04bf9d8a64824100b68e5c59e579eda6-c37eeb854e844b4690555b6f8c57f133.7z",
+        sha256 = "c36d8567a44427c67d147a0a878ec0ed3a413ef97087bb575145960822db6d91"
+    },
+    ["windows-x86-vc143-5e8a2c9d4eda4ce89e7478b7932d1a51"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x86-vc143-5e8a2c9d4eda4ce89e7478b7932d1a51-2d36d987230e4fdc8b5ea50096eb6e0e.7z",
+        sha256 = "75152ace4d8759b10cedc9eb0af3d16c8302b50e79b756d48a0a2265ee1cc5df"
+    },
+    ["windows-x64-vc143-dba68d790c494054b65d2b1a9da54d0f"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x64-vc143-dba68d790c494054b65d2b1a9da54d0f-864c98bbb66b4cc99624a7fc33984999.7z",
+        sha256 = "0ec7699e216df123ce847b0abea8c7c8e952861befa6fe9fba721ec267bfa922"
+    },
+    ["windows-x64-vc143-85fd9fae44d649fcb567db918f15f1e0"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x64-vc143-85fd9fae44d649fcb567db918f15f1e0-1e6c6b5a62024958ab6584f9e5387150.7z",
+        sha256 = "148c2f5ba691b0b3f0e2b402766373e6a151c7adf531709da741d4d3381267fe"
+    },
+    ["windows-x86-vc143-01dba5cf18044069baac5e77ea4c85fa"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x86-vc143-01dba5cf18044069baac5e77ea4c85fa-799d2532e04748a38a95301043ea9cfd.7z",
+        sha256 = "e59a0457f7fb75048b52cd584515cfd73ef1ad0dd7fb7cb97284c6746470fd1c"
+    },
+    ["windows-x86-vc143-5637548563024ca79a4facc450533689"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x86-vc143-5637548563024ca79a4facc450533689-0cf22f18c9d34b1aba986a53e7f63cf4.7z",
+        sha256 = "5dd6d4fa4d13547da432b51af0cb64d5a46187456706fd7f710000c6cc873bea"
+    },
+    ["windows-x64-vc143-c49d6b3d5d794a45b48068cfc464fcf6"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x64-vc143-c49d6b3d5d794a45b48068cfc464fcf6-a0faee0c1bbe4c34907a38e04d487af9.7z",
+        sha256 = "1489f5070a64907ea3dba4dec5d8c3301aeed88ab06c9da482d157a3bc4a0e3e"
+    },
+    ["windows-x86-vc143-78142802f6d24f98977ed7286e16d7b9"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/zlib-v1.2.13/windows-x86-vc143-78142802f6d24f98977ed7286e16d7b9-ded8584e9e1b4f1599d666f9d98e8ceb.7z",
+        sha256 = "3138cfcdd6dbfc2a001316997d8d8c41e8f65725bfbf4f24760c9239187bbd66"
+    }
+}

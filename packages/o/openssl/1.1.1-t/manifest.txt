@@ -1,0 +1,42 @@
+{
+    ["windows-x64-vc143-e5c27b0735d142f28aae541d65485c63"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x64-vc143-e5c27b0735d142f28aae541d65485c63-6c1ebe3da4dc48b18ba7ece572c06b24.7z",
+        sha256 = "57afe52de95de9a0dc9b1aefce09ee140cbffde58dc661d7f8081269228b24d4"
+    },
+    ["windows-x86-vc143-c73ca16c308f4ce6993d5c0bc905c3f6"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x86-vc143-c73ca16c308f4ce6993d5c0bc905c3f6-e17460aafcb84998a4c006c76067c3fc.7z",
+        sha256 = "ad3fa5cc77b591a8367243c6d98c5aab8ae9d12f28fd91354a830000300516ca"
+    },
+    ["windows-x64-vc143-68d508ab7575454db2d2dc545abcc8b0"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x64-vc143-68d508ab7575454db2d2dc545abcc8b0-585a090385774b50afb04198e1db50bc.7z",
+        sha256 = "26beb9a59868e4a134496a86b090dd9550f8dac3b37a696d25bd87f598458c5c"
+    },
+    ["windows-x64-vc143-5ea540d66755486c8a0b8cefcf272fea"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x64-vc143-5ea540d66755486c8a0b8cefcf272fea-b19689c2820c4830b8ff06f57197ca4d.7z",
+        sha256 = "1bc1c58565e5500756a2b73af0543723cee5460db0ad6d7d335561d5c029afac"
+    },
+    ["windows-x86-vc143-8e7ef855b1964d4e81eb6d863526ee50"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x86-vc143-8e7ef855b1964d4e81eb6d863526ee50-e3925757259b4634907be4b84ce968c5.7z",
+        sha256 = "0879d54e8a418fc89c4b66a683831de843fe1ea37f841f7e414d07e11355704f"
+    },
+    ["windows-x64-vc143-9458079689e342b58f2f2e8d4b2fb860"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x64-vc143-9458079689e342b58f2f2e8d4b2fb860-322bba0cd49b460983b23c939c804f4b.7z",
+        sha256 = "30e8983d14f4bb324ebc956ae59eb40b2ca99978dacb8da2d28f6cceaea1a486"
+    },
+    ["windows-x86-vc143-15e16795d97b43ccb0b760116657deac"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x86-vc143-15e16795d97b43ccb0b760116657deac-965c4504b6c544a9bb52a0e3c742ffaf.7z",
+        sha256 = "5b17688e7e0b3b3438236b6a0bb957da64055c390456f7fb58e2b313eae49f20"
+    },
+    ["windows-x86-vc143-594579650eef4d71a82da96db43fa5ae"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/openssl-1.1.1-t/windows-x86-vc143-594579650eef4d71a82da96db43fa5ae-ec6cba60768c4776b4faf2439ab3e4a4.7z",
+        sha256 = "331f4bd36784945aba7990e59c3c99c06cbc5f1ed52fbad5e332913bd7a8de8e"
+    }
+}

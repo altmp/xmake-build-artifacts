@@ -1,0 +1,42 @@
+{
+    ["windows-x86-vc143-8cc713b0f08749c8a6b021795e531050"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x86-vc143-8cc713b0f08749c8a6b021795e531050-c9db8fcb7b9040d183f382581bd87c7b.7z",
+        sha256 = "0c27e073b6787110cb0c4c030ecaf27afe947aeba689b4d38d8f898a105e5cdf"
+    },
+    ["windows-x64-vc143-9719ea9ce3a249f8a614cb6c60cdd8a2"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x64-vc143-9719ea9ce3a249f8a614cb6c60cdd8a2-633c90aae59f4638954130f0952c5447.7z",
+        sha256 = "54bdf30b74ff350fafdf7ff2d06f9a041ff2f35071069faf754daa076d9c1df9"
+    },
+    ["windows-x64-vc143-bd3508e861554a66a3e15b8182257478"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x64-vc143-bd3508e861554a66a3e15b8182257478-184353eda1c341279e710f89dad9e313.7z",
+        sha256 = "dca0a25da33da25446da7038c7f79b726f92f927351bb15b37e99f8ab3e15fef"
+    },
+    ["windows-x64-vc143-15c55fb48e0f4da485e7e9d457d497b7"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x64-vc143-15c55fb48e0f4da485e7e9d457d497b7-d65364512ac9486e9f269d03caefe97b.7z",
+        sha256 = "97450e4e281353ce685f5941ba9053dd55e542236f047c6ccaa6d59968a8017d"
+    },
+    ["windows-x86-vc143-14b0149d8fbf4f2594b8e5bdb5eb2e03"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x86-vc143-14b0149d8fbf4f2594b8e5bdb5eb2e03-f651c6018048433788fa0d8e572fd1be.7z",
+        sha256 = "c9c2f1fdbf5beffab34bc3ffcbbe6022552d293b2b86c9266d0130c9a4133735"
+    },
+    ["windows-x86-vc143-c278def6239f456da32cb66d02cb22d7"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x86-vc143-c278def6239f456da32cb66d02cb22d7-b408e5f948bf433799a845886994b37d.7z",
+        sha256 = "c0188c75c20b42211081eaf25a206b06976638a90b5bf77f39140b7b25e01677"
+    },
+    ["windows-x64-vc143-594256d5547640deb3b5a84da2023318"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x64-vc143-594256d5547640deb3b5a84da2023318-ebe989b11bce415c99a96d37af37af93.7z",
+        sha256 = "ac21398199dda0aaf6c78a507fe8beb9ea7ac85bb8c2a12bf3917b07a7b1ceb8"
+    },
+    ["windows-x86-vc143-fc642bf7f78b455aa990af83200af01a"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/freetype-2.12.1/windows-x86-vc143-fc642bf7f78b455aa990af83200af01a-a6d2a283ec4b48c29c95a2c0199f6f11.7z",
+        sha256 = "95729f19d85bf667f9d22e2ca035e3fea3506c6d7d1d4490b83946e9cc7defd0"
+    }
+}

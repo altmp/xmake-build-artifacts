@@ -1,0 +1,22 @@
+{
+    ["windows-x86-vc143-c880814e80fb46b292b3446fda7dd7bf"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/pkgconf-1.9.3/windows-x86-vc143-c880814e80fb46b292b3446fda7dd7bf-00caf8fe69f443048dd156c8f662611d.7z",
+        sha256 = "fd18aaa5a85182bad3606c48713a463fca91556f74c93915c8e00162716422da"
+    },
+    ["windows-x64-vc143-fea91ef091d745c7bd719c3798b38ff0"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/pkgconf-1.9.3/windows-x64-vc143-fea91ef091d745c7bd719c3798b38ff0-25456994ea6149eca981bf078fd4ed3d.7z",
+        sha256 = "955e0c7404ee922e73f997caec830ee1cdcd90f90d585bab956a60accd56679f"
+    },
+    ["windows-x64-vc143-c880814e80fb46b292b3446fda7dd7bf"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/pkgconf-1.9.3/windows-x64-vc143-c880814e80fb46b292b3446fda7dd7bf-1dee6630858d431aacc6c9ee98d7c630.7z",
+        sha256 = "fd3f02ebc6ad5f67a97bdf3a738428fd252d53a17167f8a8d63b37d039fbd8a4"
+    },
+    ["windows-x86-vc143-fea91ef091d745c7bd719c3798b38ff0"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/pkgconf-1.9.3/windows-x86-vc143-fea91ef091d745c7bd719c3798b38ff0-336cf0610480439b991adebd32de265a.7z",
+        sha256 = "162485b62dcae87c254f1c924b4239c0b9959fcae89726ec6798819db5e67cb7"
+    }
+}

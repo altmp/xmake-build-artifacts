@@ -1,0 +1,22 @@
+{
+    ["windows-x64-vc143-5430022e3acc47008f94857b498c53c6"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/cmake-3.24.2/windows-x64-vc143-5430022e3acc47008f94857b498c53c6-7c8fc0cdc7dc4dc9b7595d45ed0dab30.7z",
+        sha256 = "08a6ee9456f5ba0515ed9bc7da97080f122152cdcd7be2952f8318eb12c87da0"
+    },
+    ["windows-x86-vc143-2fe01279d7e84eea8f72c780758eba56"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/cmake-3.24.2/windows-x86-vc143-2fe01279d7e84eea8f72c780758eba56-e44bc4177d694c41882a929913eaa3ef.7z",
+        sha256 = "5ebed1ab3295f68b0072a19a0c3ab274b586883f1dcf07618e70405bcc7c2e1b"
+    },
+    ["windows-x86-vc143-5430022e3acc47008f94857b498c53c6"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/cmake-3.24.2/windows-x86-vc143-5430022e3acc47008f94857b498c53c6-830d27b99c1f4242bcefdfcb28d758c9.7z",
+        sha256 = "976deca867d58909cbd717e42df07956b7bbb3cc071809b2ea780f38c3518887"
+    },
+    ["windows-x64-vc143-2fe01279d7e84eea8f72c780758eba56"] = {
+        toolset = "14.34.31933",
+        urls = "https://github.com/altmp/xmake-build-artifacts/releases/download/cmake-3.24.2/windows-x64-vc143-2fe01279d7e84eea8f72c780758eba56-9d9a7b8f203340dbb8ad7155d2730160.7z",
+        sha256 = "af908413280339db4b688f5b0d131167304f6cc7c1aa0597ca18cd096e97d95f"
+    }
+}

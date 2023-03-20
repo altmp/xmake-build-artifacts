@@ -1,0 +1,6 @@
+{
+    name = "rmlui",
+    versions = {
+        "5.0"
+    }
+}

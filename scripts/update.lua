@@ -23,7 +23,7 @@ function main()
         for _, asset in ipairs(assets_json) do
             http.download(asset.url, path.join("assets", asset.name))
         end
-        os.exec("git clone git@github.com:xmake-mirror/build-artifacts.git")
+        os.exec("git clone git@github.com:altmp/xmake-build-artifacts.git")
         os.cd("build-artifacts")
         local manifestfile = path.join("packages", name:sub(1, 1), name, version, "manifest.txt")
 

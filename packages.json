@@ -2,6 +2,7 @@
     ["rmlui", "5.0", "svg=true"],
     ["rmlui", "5.0"],
     ["libcurl", "7.87.0", "openssl=true"],
+    ["libcurl", "7.87.0"],
     ["nlohmann_json", "v3.11.2"],
     ["toml++", "v3.3.0"],
     ["glfw", "3.3.8"],
